@@ -1,0 +1,20 @@
+{% load static%}
+{% block title %}List Movie {% endblock %}
+
+{% block body %}
+
+<h1>Movie List</h1>
+  <!-- ko foreach: data -->
+    <!-- ko text: title --><!-- /ko --> <br>
+    <!-- ko text: year --><!-- /ko --><br>
+    <!-- ko text: genre --><!-- /ko --> <br><br><br>
+  <!-- /ko -->
+{% endblock %}
+
+{% block script %}
+<script src='{% static "js/jquery-3.4.1.min.js" %}'></script>
+<script src='{% static "js/bootstrap.bundle.min.js" %}'></script>
+<script src='{% static "js/jquery.validate.min.js" %}'></script>
+<script src='{% static "js/knockout-3.5.0.js" %}'></script>
+<script src='{% static "js/custom/movie-list.js" %}'></script></script>
+{% endblock %}

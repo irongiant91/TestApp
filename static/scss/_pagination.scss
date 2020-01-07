@@ -1,0 +1,26 @@
+.pagination {
+  .page-item {
+    .page-link {
+      color: $pagination-text-color;
+      font-weight: 600;
+      border-color: $pagination-border-color;
+      &:focus {
+        box-shadow: none;
+      }
+      &:hover {
+        z-index: initial;
+      }
+    }
+    &.active {
+      .page-link {
+        color: white;
+        // background: linear-gradient(135deg, $primary-color1, $primary-color2);
+        background: $primary-color;
+        border-color: $primary-color2;
+        &:hover {
+          z-index: 2;
+        }
+      }
+    }
+  }
+}

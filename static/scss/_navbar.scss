@@ -1,0 +1,32 @@
+nav {
+  &.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    .navbar-nav {
+      flex-direction: row;
+      .nav-item {
+        .nav-link {
+          padding: 0.5rem 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: $header-icon-color-default;
+          height: 100%;
+          &.dropdown-toggle {
+            font-size: 0.8125rem;
+            color: $text-dark;
+            font-weight: 500;
+            + {
+              .dropdown-menu {
+                .dropdown-item {
+                  font-size: 0.8125rem;
+                  text-align: right;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

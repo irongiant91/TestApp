@@ -1,0 +1,472 @@
+.table {
+  thead {
+    th {
+      font-weight: 600;
+      &.th-icon {
+        width: 4rem;
+      }
+    }
+  }
+  tbody {
+    th {
+      font-weight: 600;
+    }
+  }
+  &.table-striped {
+    thead {
+      tr {
+        th {
+          border-top: none;
+        }
+        &:first-of-type {
+          th {
+            padding-left: 1rem;
+          }
+        }
+        &:last-of-type {
+          th {
+            padding-right: 1rem;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        &:nth-of-type(even){
+          background: #F6F6F6;
+        }
+        &:nth-of-type(odd){
+          background: white;
+        }
+        td {
+          padding-top: 1.25rem;
+          padding-bottom: 1.25rem;
+          vertical-align: middle;
+          span {
+            &.badge {
+              font-size: 0.75rem;
+            }
+          }
+          .tooltip-btn {
+            font-size: 0.75rem;
+          }
+          &.td-icon {
+            width: 4rem;
+          }
+        }
+        &:first-of-type {
+          td {
+            padding-left: 1rem;
+          }
+        }
+        &:last-of-type {
+          td {
+            padding-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+  &.jobtype-list-table {
+    thead {
+      tr {
+        th {
+          &:nth-of-type(3) {
+            min-width: 160px
+          }
+           &:nth-of-type(6) {
+            min-width: 135px
+          }
+          &:first-of-type {
+            min-width: 70px;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          span {
+            &.badge {
+              max-width: 133px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }          
+        }
+      }
+    }
+  }
+
+  &.vehicle-type-table {
+    tbody {
+      tr {
+        td {
+          span {
+            &.badge {
+              max-width: 133px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.cumulative-invoice-table {
+    thead {
+      th {
+        &:first-of-type {
+          min-width: 65px
+        }
+        &:nth-of-type(2) {
+          min-width: 115px;
+        }
+        &:nth-of-type(3) {
+          min-width: 125px;
+        }
+        &:nth-of-type(4) {
+          min-width: 265px;
+        }
+        &:nth-of-type(5) {
+          min-width: 105px;
+        }
+        &:nth-of-type(6) {
+          min-width: 150px;
+        }
+        &:nth-of-type(7) {
+          min-width: 166px;
+        }
+        &:last-of-type {
+          width: 70px;
+        }        
+      }
+    }
+    tfoot {
+      tr {
+        td {
+          &:nth-of-type(2) {
+            min-width: 160px;
+          }
+          .select2 {
+            &.select2-container {
+              width: 100% !important;
+              .select2-selection {
+                height: 41px !important;
+                .select2-selection__rendered {
+                  line-height: 41px !important;
+                }
+                .select2-selection__arrow {
+                  height: 41px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.dummy-invoice-table {
+    thead {
+      th {
+        &:first-of-type {
+          min-width: 65px
+        }
+        &:nth-of-type(2) {
+          min-width: 350px;
+        }
+        &:nth-of-type(3) {
+          min-width: 105px;
+        }
+        &:nth-of-type(4) {
+          min-width: 110px;
+        }
+        &:nth-of-type(5) {
+          min-width: 110px;
+        }
+        &:last-of-type {
+          width: 70px;
+        }        
+      }
+    }
+    tfoot {
+      tr {
+        td {
+          .select2 {
+            &.select2-container {
+              width: 100% !important;
+              .select2-selection {
+                height: 41px !important;
+                .select2-selection__rendered {
+                  line-height: 41px !important;
+                }
+                .select2-selection__arrow {
+                  height: 41px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.inspection-run-table {
+    thead {
+      th {
+        &:first-of-type {
+          min-width: 70px;
+        }
+        &:nth-of-type(2) {
+          min-width: 210px;
+        }
+        &:nth-of-type(3) {
+          min-width: 210px;
+        }
+        &:nth-of-type(4) {
+          min-width: 150px;
+        }
+        &:nth-of-type(5) {
+          min-width: 300px;
+        }
+      }
+    }
+  }
+
+  &.service-items-table {
+    thead {
+      th {
+        &:first-of-type {
+          min-width: 70px;
+        }
+        &:nth-of-type(2) {
+          min-width: 270px;
+        }
+        &:nth-of-type(3) {
+          min-width: 150px;
+        }
+        &:nth-of-type(4) {
+          min-width: 150px;
+        }
+        &:nth-of-type(5) {
+          min-width: 150px;
+        }
+        &:nth-of-type(6) {
+          min-width: 90px;
+        }
+      }
+    }
+  }
+
+  &.role-management-table {
+    thead {
+      th {
+        &:first-of-type {
+          width: 70px;
+        }
+      }
+    }
+  }
+
+  &.vehicle-document-table {
+    thead {
+      tr {
+        th{
+          &:first-of-type {
+            min-width: 65px;
+          }
+          &:nth-of-type(2){
+            min-width: 200px;
+          }
+          &:nth-of-type(3){
+            min-width: 300px;
+          }
+          &:nth-of-type(4){
+            min-width: 110px;
+          }
+          &:nth-of-type(5){
+            min-width: 206px;
+          }
+          &:nth-of-type(6){
+            min-width: 115px;
+          }
+          &:last-of-type {
+            min-width: 105px;
+          }
+        }
+      }
+    }
+  }
+
+  &.incident-table {
+    thead {
+      tr {
+        th {
+          &:first-of-type {
+            min-width: 70px;
+          }
+          &:nth-of-type(2) {
+            min-width: 135px
+          }
+          &:nth-of-type(3) {
+            min-width: 140px
+          }
+          &:nth-of-type(4) {
+            min-width: 170px
+          }
+          &:nth-of-type(5) {
+            min-width: 240px
+          }
+          &:nth-of-type(6) {
+            min-width: 140px
+          }
+          &:last-of-type {
+            min-width: 110px
+          }
+        }
+      }
+    }
+  }
+
+  &.vehicle-document-table {
+    tbody {
+      tr {
+        td {
+          .overflow-data { 
+            white-space: initial;
+          }
+        }
+      }
+    }
+  }
+
+  &.admin-vehicle-property-table {
+    thead {
+      tr {
+        th {
+          &:first-of-type {
+            min-width: 70px;
+          }
+          &:nth-of-type(2) {
+            min-width: 265px;
+          }
+          &:nth-of-type(3) {
+            min-width: 560px;
+          }
+          &:nth-of-type(4) {
+            min-width: 67px;
+          }
+          &:nth-of-type(5) {
+            min-width: 63px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.table-responsive {
+  &.height-fix {
+    min-height: 20rem;
+  }
+}
+
+.leads-management-table {
+  .table {
+    tbody {
+      tr {
+        td {
+          label {
+            &.badge {
+              width: auto;
+              min-width: 110px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.list-live-view {
+  .table {
+    thead {
+      tr {
+        th {
+          &:first-of-type {
+            min-width: 65px;
+          }
+          &:nth-of-type(3) {
+            min-width: 103px
+          }
+          &:nth-of-type(5) {
+            min-width: 130px
+          }
+          &:nth-of-type(6) {
+            min-width: 115px
+          }
+          &:nth-of-type(7) {
+            min-width: 141px
+          }
+          &:nth-of-type(8) {
+            min-width: 155px
+          }
+          &:nth-of-type(10) {
+            min-width: 85px
+          }
+          &:last-of-type {
+            min-width: 45px;
+          }
+        }
+      }
+    } 
+  }
+}
+
+.contracts {
+  .table {
+    thead {
+      tr {
+        th {
+          &:first-of-type {
+            min-width: 65px;
+          }
+          &:nth-of-type(2) {
+            min-width: 140px
+          }
+          &:nth-of-type(3) {
+            min-width: 145px
+          }
+          &:nth-of-type(4) {
+            min-width: 125px
+          }
+          &:nth-of-type(5) {
+            min-width: 123px
+          }
+          &:nth-of-type(6) {
+            min-width: 115px
+          }
+          &:nth-of-type(7) {
+            min-width: 116px
+          }
+          &:nth-of-type(8) {
+            min-width: 107px
+          }
+          &:nth-of-type(9) {
+            min-width: 110px
+          }
+          &:nth-of-type(10) {
+            min-width: 114px
+          }
+          &:last-of-type {
+            min-width: 45px;
+          }
+        }
+      }
+    } 
+  }
+}

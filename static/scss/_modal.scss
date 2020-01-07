@@ -1,0 +1,25 @@
+.modal {
+  &.finance-detail {
+    .modal-header {
+      .close {
+        right: -8px;
+        color: white;
+        opacity: 1;
+        span {
+        	font-size: 1.1rem;
+        }
+      }
+    }
+  }
+  &.mark-paid-modal {
+    .modal-body {
+      .card {
+        .custom-control {
+          position: absolute;
+          left: -32px;
+          top: 44px;
+        }
+      }
+    }
+  }
+} 

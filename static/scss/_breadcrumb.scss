@@ -1,0 +1,13 @@
+.breadcrumb {
+  .breadcrumb-item {
+    font-weight: 600;
+    font-size: 0.6875rem;
+    a {
+      color: inherit;
+
+    }
+    &.active {
+      font-weight: 400;
+    }
+  }
+}

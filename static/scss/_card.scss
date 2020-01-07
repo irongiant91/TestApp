@@ -1,0 +1,11 @@
+.card {
+  overflow-y: auto;
+  .card-header {
+    font-weight: 600;
+    font-size: 0.875rem;
+    border-color: $border-color-default;
+  }
+  &.overflow-visible {
+    overflow: visible;
+  }
+}

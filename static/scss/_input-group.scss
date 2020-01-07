@@ -1,0 +1,11 @@
+.input-group {
+  .form-control {
+    + .input-group-append {
+      .btn-outline-secondary {
+        &:hover {
+          border-color: $btn-secondary-border-color;
+        }
+      }
+    }
+  }
+}

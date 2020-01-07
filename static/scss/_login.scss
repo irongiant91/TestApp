@@ -1,0 +1,106 @@
+
+
+.admin-login {
+  background-color: white;
+  height: 100%;
+  .login-bg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+  } 
+  .fill-height {
+    height:100%;
+    &.flex {
+      display: flex;
+      .form-box {
+        position: relative;
+        z-index: 1;
+        width: 450px;
+        padding: 3.5rem 2rem 3.5rem;
+        height: auto;
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        @media screen and (max-width: 1224px) { 
+          padding: 3.5rem 0 3.5rem 0;
+        }
+        .logo-holder {
+          text-align: center;
+          margin-bottom: 1rem;
+          img {
+            width: 170px;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+        form {
+          width: 100%;
+          margin: 2rem 0 0rem;
+          float: left;
+          .form-group {
+            position: relative;
+            margin-bottom: 35px;
+            clear: both;
+            text-align: left;
+            .form-control {
+              background: white;
+              border: none;
+              border-bottom: solid 1px $primary-color-light;
+              height: 33px;
+              color: $primary-color-light;
+              font-size: 13px;
+              box-shadow: none;
+              padding: 0 0px;
+              border-radius: 0;
+            }
+            .input-group-append {
+              display: flex;
+              align-items: center;
+              border-bottom: solid 1px $primary-color-light;
+              font-size: 1.25rem;
+              margin-left: 0;
+              cursor: pointer;
+            }
+            h3 {
+              font-size: 1.2rem;
+              font-weight: 600;
+              color: $primary-color;
+            }
+            p {
+              font-size: 12px;
+              color: #6b6b6b;
+            }
+          }
+          .login-btn {
+            margin-top: 0rem !important;
+            margin-bottom: 1rem;
+            clear: both;
+            padding: .7rem 4rem;
+            font-size: 14px;
+            font-weight: 600;
+            background: $primary-color;
+            color: #fff;
+            outline: none;
+            width: 100%;
+          }
+          .forgot-pswd-btn {
+            text-align: right;
+            font-size: 13px;
+            display: block;
+          }
+          .external-view-btn {
+            padding: 1rem 2.5rem;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+            border-radius: 0.2rem;
+            outline: none;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

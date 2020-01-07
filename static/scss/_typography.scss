@@ -1,0 +1,60 @@
+h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.text-normal {
+  font-size: .8125rem;
+}
+
+.font-weight-5 {
+	font-weight: 500;
+}
+.font-weight-6 {
+	font-weight: 600;
+}
+
+.text-purple {
+  color: $primary-color2;
+}
+
+.text-light {
+  color: $text-light !important;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.text-primary-dark {
+  color: $primary-color-dark !important;
+}
+
+.text-primary2 {
+  color: $primary-color2 !important;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+  font-weight: 600;
+}
+
+h4, h5, h6, .h4, .h5, .h6 {
+  font-weight: 600;
+}
+
+h6, .h6 {
+  small {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+}
+.font-1 {
+  font-size: 1rem;
+}
+.font-14 {
+  font-size: 14px
+}

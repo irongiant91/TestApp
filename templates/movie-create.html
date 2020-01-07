@@ -1,0 +1,16 @@
+{% load static%}
+{% block title %}Create Movie {% endblock %}
+
+{% block body %}
+<form action="/api/movie/create" method="POST" id='createMovie'>
+    {% csrf_token %}
+    <label for="title">Title</label>
+    <input type="text" name="title"><br>
+    <label for="year">Year</label>
+    <input type="text" name="year"><br>
+    <label for="genre">Genre</label>
+    <input type="text" name="genre"><br>
+    <button type="submit">Create Movie</button>
+</form>
+
+{% endblock %}
